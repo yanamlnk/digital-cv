@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>YM: Hello World!</title>
+</head>
+<body>
+    <header>
+        <nav class="bigscreen-nav">
+            <a href="#about" class="nes-btn">About</a>
+            <a href="#skills" class="nes-btn">Skills</a>
+            <a href="#education" class="nes-btn">Education</a>
+            <a href="#projects" class="nes-btn">Projects</a>
+            <a href="#experience" class="nes-btn">Experience</a>
+            <a href="#contact" class="nes-btn is-error">Contact</a>
+        </nav>
+
+        <nav class="smallscreen-nav">
+            <a href="#about" class="nes-btn"><img src="sources/avatar.png" alt="icon of avatar"></a>
+            <a href="#skills" class="nes-btn"><img src="sources/smallnav/skills.png" alt="icon of sword"></a>
+            <a href="#education" class="nes-btn"><img src="sources/education/university.png" alt="icon of university"></a>
+            <a href="#projects" class="nes-btn"><img src="sources/smallnav/projects.png" alt="icon of computer"></a>
+            <a href="#experience" class="nes-btn"><img src="sources/experience/title.png" alt="icon of bag"></a>
+            <a href="#contact" class="nes-btn is-error"><img src="sources/smallnav/contact.png" alt="icon of letter"></a>
+        </nav>
+    </header>
+
+    <section class="nes-container with-title" id="about">
+        <h2 class="title">About Me</h2>
+            
+        <div class="avatar-container">
+            <img src="sources/avatar.png" alt="My avatar" class="avatar">
+            <div class="nes-balloon from-left">
+                <p>Hello, World!</p> <p>My name is <strong>Yana Melnyk</strong> and I am <strong>Back End Developer</strong>.</p>
+            </div>
+        </div>
+
+        <br><p>Passionate by new technologies and always ready to learn more. I am <strong style="color:rgb(245, 200, 0)">looking for an apprenticeship contract (starting in January 2025)</strong> as a Java Backend developer, during which I hope to be a helpful addition to your team.</p>
+        
+        <div class="download-button-container">
+            <a href="https://github.com/yanamlnk" target="_blank" style="margin-right: 10px;"><i class="nes-icon github is-medium"></i></a>
+            <a href="https://www.linkedin.com/in/yana-melnyk/" target="_blank" style="margin-right: 10px;"><i class="nes-icon linkedin is-medium"></i></a>
+            <a href="sources/CV/CV_Yana_Melnyk_EN.pdf" class="nes-btn is-success" download>Download CV</a>
+        </div>
+    </section> 
+    
+    <div class="mid-section">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+        <img src="sources/subsection/terminal.png" alt="code" class="code">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+        <img src="sources/subsection/terminal.png" alt="code" class="code">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+    </div>
+    
+    <section class="nes-container with-title" id="skills">
+        <h2 class="title">Skills</h2>
+        
+        <section class="nes-container is-dark with-title is-centered">
+            <h3 class="title">Hard Skills</h3>
+
+            <div class="progress-bar-label">
+                <label for="java" class="progress-label">Java</label>
+                <progress id="java" class="nes-progress is-primary progress-bar" value="80" max="100"></progress>
+            </div>
+
+            <div class="progress-bar-label">
+                <label for="html" class="progress-label">HTML</label>
+                <progress id="html" class="nes-progress is-success progress-bar" value="75" max="100"></progress>
+            </div>
+
+            <div class="progress-bar-label">
+                <label for="css" class="progress-label">CSS</label>
+                <progress id="css" class="nes-progress is-warning progress-bar" value="50" max="100"></progress>
+            </div>
+
+            <div class="progress-bar-label">
+                <label for="python" class="progress-label">Python</label>
+                <progress id="python" class="nes-progress is-warning progress-bar" value="50" max="100"></progress>
+            </div>
+
+            <div class="progress-bar-label">
+                <label for="gradle" class="progress-label">Gradle</label>
+                <progress id="gradle" class="nes-progress is-success progress-bar" value="75" max="100"></progress>
+            </div>
+
+            <div class="progress-bar-label">
+                <label for="maven" class="progress-label">Maven</label>
+                <progress id="maven" class="nes-progress is-success progress-bar" value="70" max="100"></progress>
+            </div>
+
+            <div class="progress-bar-label">
+                <label for="git" class="progress-label">Git</label>
+                <progress id="git" class="nes-progress is-success progress-bar" value="65" max="100"></progress>
+            </div>
+
+            <div class="progress-bar-label">
+                <label for="spring" class="progress-label">Spring Boot</label>
+                <progress id="spring" class="nes-progress is-success progress-bar" value="65" max="100"></progress>
+            </div>
+
+            <div class="progress-bar-label">
+                <label for="sql" class="progress-label">SQL</label>
+                <progress id="sql" class="nes-progress is-success progress-bar" value="70" max="100"></progress>
+            </div>
+
+        </section>
+
+        <section class="nes-container with-title is-centered">
+            <h3 class="title">Soft Skills</h3>
+
+            Attention to details<br>
+            <i class="nes-icon is-small heart"></i><br>
+            Communication skills<br>
+            <i class="nes-icon is-small heart"></i><br>
+            Teamwork<br>
+            <i class="nes-icon is-small heart"></i><br>
+            Adaptability<br>
+            <i class="nes-icon is-small heart"></i><br>
+            Time management<br>
+            <i class="nes-icon is-small heart"></i><br>
+            Continuous learning<br>
+            <i class="nes-icon is-small heart"></i><br>
+            Creativity
+
+        </section>
+
+        <section class="nes-container is-dark with-title is-centered">
+            <h3 class="title">Languages</h3>
+            <div class="language-container">
+                <div class="language">
+                    <abbr title="Ukrainian">UA</abbr> <img src="sources/flags/ukraineflag.png" alt="Ukrainian flag">
+                </div>
+                <div class="stars">
+                    <i class="nes-icon star is-full"></i> <i class="nes-icon star is-full"></i> <i class="nes-icon star is-full"></i>
+                </div>
+            </div>
+            <br>
+            <div class="language-container">
+                <div class="language">
+                    <abbr title="French">FR</abbr> <img src="sources/flags/franceflag.png" alt="French flag">
+                </div>
+                <div class="stars">
+                    <i class="nes-icon star is-full"></i> <i class="nes-icon star is-full"></i> <i class="nes-icon star is-transparent"></i>
+                </div>
+            </div>
+            <br>
+            <div class="language-container">
+                <div class="language">
+                    <abbr title="English">EN</abbr> <img src="sources/flags/united_kingdomflag.png" alt="UK flag">
+                </div>
+                <div class="stars">
+                    <i class="nes-icon star is-full"></i> <i class="nes-icon star is-full"></i> <i class="nes-icon star is-half"></i>
+                </div>
+            </div>
+            <br>
+            <div class="language-container">
+                <div class="language">
+                    <abbr title="Polish">PL</abbr> <img src="sources/flags/polandflag.png" alt="Polish flag">
+                </div>
+                <div class="stars">
+                    <i class="nes-icon star is-full"></i> <i class="nes-icon star is-full"></i> <i class="nes-icon star is-half"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="nes-container with-title is-centered">
+            <h3 class="title">Special</h3>
+            <i class="nes-pokeball"></i><br>Beyond coding, I proudly hold the title of a Pokémon Trainer, thanks to my loyal dog Pikachu.
+        </section>
+
+    </section>  
+    
+    <div class="mid-section">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+        <img src="sources/subsection/terminal.png" alt="code" class="code">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+        <img src="sources/subsection/terminal.png" alt="code" class="code">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+    </div>
+
+    <section class="nes-container with-title" id="education">
+        <h2 class="title">Education</h2>
+
+        <div class="nes-container is-rounded is-dark">
+            <p style="text-align: center;"><img src="sources/education/dark/diploma.png" alt="icon of diploma" style="width: 50px; height: 50px;"><br><b>Architecte de Systèmes d’Information (RNCP38114 Niv. 7)</b></p>
+            <table>
+                <tr>
+                    <td><img src="sources/education/dark/university.png" alt="icon of university" style="width: 50px; height: 50px;"></td>
+                    <td style="padding-left: 10px;"> EPITECH</td>
+                </tr>
+                <tr>
+                    <td><img src="sources/education/dark/place.png" alt="icon of map point" style="width: 50px; height: 50px;"></td>
+                    <td style="padding-left: 10px;"> Nice, France</td>
+                </tr>
+                <tr>
+                    <td><img src="sources/education/dark/date.png" alt="icon of calendar" style="width: 50px; height: 50px;"></td>
+                    <td style="padding-left: 10px;"> 2024-2027</td>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+        
+        <p style="text-align: center;"><img src="sources/education/diploma.png" alt="icon of diploma" style="width: 50px; height: 50px;"><br><b>Certification SQL(Basic)</b></p>
+        <table>
+            <tr>
+                <td><img src="sources/education/university.png" alt="icon of university" style="width: 50px; height: 50px;"></td>
+                <td style="padding-left: 10px;"> HackerRank</td>
+            </tr>
+            <tr>
+                <td><img src="sources/education/place.png" alt="icon of map point" style="width: 50px; height: 50px;"></td>
+                <td style="padding-left: 10px;"> Online</td>
+            </tr>
+            <tr>
+                <td><img src="sources/education/date.png" alt="icon of calendar" style="width: 50px; height: 50px;"></td>
+                <td style="padding-left: 10px;"> March 2024</td>
+            </tr>
+        </table>
+        <div style="text-align: center;">
+            <a href="https://www.hackerrank.com/certificates/1d6e9af81c87" class="nes-btn is-primary" target="_blank">Check Certificate</a>
+        </div>
+        <br>
+
+        <div class="nes-container is-rounded is-dark">
+            <p style="text-align: center;"><img src="sources/education/dark/diploma.png" alt="icon of diploma" style="width: 50px; height: 50px;"><br><b>Certification Java Backend Developer</b></p>
+            <table>
+                <tr>
+                    <td><img src="sources/education/dark/university.png" alt="icon of university" style="width: 50px; height: 50px;"></td>
+                    <td style="padding-left: 10px;"> JetBrains Academy</td>
+                </tr>
+                <tr>
+                    <td><img src="sources/education/dark/place.png" alt="icon of map point" style="width: 50px; height: 50px;"></td>
+                    <td style="padding-left: 10px;"> Online</td>
+                </tr>
+                <tr>
+                    <td><img src="sources/education/dark/date.png" alt="icon of calendar" style="width: 50px; height: 50px;"></td>
+                    <td style="padding-left: 10px;"> August 2023</td>
+                </tr>
+            </table>
+            <div style="text-align: center;">
+                <a href="https://hyperskill.org/certificates/7cdca90d-7d5d-4515-8024-03b531ce5894.pdf" class="nes-btn is-primary" target="_blank">Check Certificate</a>
+            </div>
+        </div>
+
+        <br>
+
+        <p style="text-align: center;"><img src="sources/education/diploma.png" alt="icon of diploma" style="width: 50px; height: 50px;"><br><b>Licence English-Ukrainian Translation</b></p>
+        <table>
+            <tr>
+                <td><img src="sources/education/university.png" alt="icon of university" style="width: 50px; height: 50px;"></td>
+                <td style="padding-left: 10px;"> Chernivtsi National University</td>
+            </tr>
+            <tr>
+                <td><img src="sources/education/place.png" alt="icon of map point" style="width: 50px; height: 50px;"></td>
+                <td style="padding-left: 10px;"> Chernivtsi, Ukraine</td>
+            </tr>
+            <tr>
+                <td><img src="sources/education/date.png" alt="icon of calendar" style="width: 50px; height: 50px;"></td>
+                <td style="padding-left: 10px;"> 2015-2019</td>
+            </tr>
+        </table>
+        <br>
+
+        <div class="nes-container is-rounded is-dark">
+            <p style="text-align: center;"><img src="sources/education/dark/diploma.png" alt="icon of diploma" style="width: 50px; height: 50px;"><br><b>Licence 1 Computer Science</b></p>
+            <table>
+                <tr>
+                    <td><img src="sources/education/dark/university.png" alt="icon of university" style="width: 50px; height: 50px;"></td>
+                    <td style="padding-left: 10px;"> West Ukrainian National University</td>
+                </tr>
+                <tr>
+                    <td><img src="sources/education/dark/place.png" alt="icon of map point" style="width: 50px; height: 50px;"></td>
+                    <td style="padding-left: 10px;"> Ternopil, Ukraine</td>
+                </tr>
+                <tr>
+                    <td><img src="sources/education/dark/date.png" alt="icon of calendar" style="width: 50px; height: 50px;"></td>
+                    <td style="padding-left: 10px;"> 2017-2018</td>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+
+    </section>  
+    
+    <div class="mid-section">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+        <img src="sources/subsection/terminal.png" alt="code" class="code">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+        <img src="sources/subsection/terminal.png" alt="code" class="code">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+    </div>
+
+    <section class="nes-container with-title" id="projects">
+        <h2 class="title">Projects</h2>
+
+        <div class="project-container">
+            <div class="project">
+                <img src="sources/projects/notes.png" alt="icon of notes" style="width: 80px; height: 80px;"><br><br>
+                <table style="margin: 0 auto;">
+                    <tr>
+                        <td><a href="https://github.com/yanamlnk/simple-todo-lists" target="_blank"><i class="nes-icon github is-medium"></i></a></td>
+                        <td style="padding-left: 10px;"><b>Simple To-Do Lists</b></td>
+                    </tr>
+                </table>
+                <br>Web application for creating and managing to-do lists.<br><br>
+                <div class="skill-box">
+                    <span style="background-color: black; color: white; padding: 5px; margin: 4px">Java</span>
+                    <span style="background-color: rgb(162, 224, 86); color: white; padding: 5px; margin: 4px">SpringBoot</span>
+                    <span style="background-color: rgb(246, 200, 13); color: white; padding: 5px; margin: 4px">Thymeleaf</span>
+                    <span style="background-color: rgb(97, 128, 255); color: white; padding: 4px; margin: 4px">HTML</span>
+                    <span style="background-color: rgb(247, 105, 70); color: white; padding: 4px; margin: 4px">Maven</span>
+                    <span style="background-color: rgb(250, 121, 226); color: white; padding: 4px; margin: 4px">H2</span>
+                </div>
+            </div>
+    
+            <div class="project">
+                <img src="sources/projects/cinema.png" alt="icon of tickets" style="width: 80px; height: 80px;"><br><br>
+                <table style="margin: 0 auto;">
+                    <tr>
+                        <td><a href="https://github.com/yanamlnk/cinema-rest-api" target="_blank"><i class="nes-icon github is-medium"></i></a></td>
+                        <td style="padding-left: 10px;"><b>Cinema RESTful API</b></td>
+                    </tr>
+                </table>
+                <br>API to buy or return tickets to small cinema.<br><br>
+                <div class="skill-box">
+                    <span style="background-color: rgb(97, 128, 255); color: white; padding: 5px; margin: 4px">Java</span>
+                    <span style="background-color: rgb(162, 224, 86); color: white; padding: 5px; margin: 4px">SpringBoot</span>
+                    <span style="background-color: rgb(246, 200, 13); color: white; padding: 5px; margin: 4px">Gradle</span>
+                    <span style="background-color: black; color: white; padding: 4px; margin: 4px">Jackson</span>
+                </div>
+                
+            </div>
+    
+            <div class="project">
+                <img src="sources/projects/carsharing.png" alt="icon of a car" style="width: 80px; height: 80px;"><br><br>
+                <table style="margin: 0 auto;">
+                    <tr>
+                        <td><a href="https://github.com/yanamlnk/car-sharing" target="_blank"><i class="nes-icon github is-medium"></i></a></td>
+                        <td style="padding-left: 10px;"><b>Car Sharing</b></td>
+                    </tr>
+                </table>
+                <br>Application to manage processes of car rental business.<br><br>
+                <div class="skill-box">
+                    <span style="background-color: black; color: white; padding: 5px; margin: 4px">Java</span>
+                    <span style="background-color: rgb(246, 200, 13); color: white; padding: 5px; margin: 4px">SQL</span>
+                    <span style="background-color: rgb(97, 128, 255); color: white; padding: 4px; margin: 4px">Gradle</span>
+                    <span style="background-color: rgb(247, 105, 70); color: white; padding: 4px; margin: 4px">JDBC</span>
+                    <span style="background-color: rgb(250, 121, 226); color: white; padding: 4px; margin: 4px">H2</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="sources/projects/google.png" alt="icon of bunny" style="width: 80px; height: 80px;"><br><br>
+                <table style="margin: 0 auto;">
+                    <tr>
+                        <td><a href="https://github.com/yanamlnk/google-challenge" target="_blank"><i class="nes-icon github is-medium"></i></a></td>
+                        <td style="padding-left: 10px;"><b>Google foo.bar Challenge</b></td>
+                    </tr>
+                </table>
+                <br>My solutions with explanations for each foo.bar challenge from Google.<br><br>
+                <div class="skill-box">
+                    <span style="background-color: rgb(97, 128, 255); color: white; padding: 4px; margin: 4px">Java</span>
+                    <span style="background-color: rgb(247, 105, 70); color: white; padding: 4px; margin: 4px">DSA</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="sources/projects/gradle.png" alt="icon of gradle" style="width: 80px; height: 80px;"><br><br>
+                <table style="margin: 0 auto;">
+                    <tr>
+                        <td><a href="https://github.com/yanamlnk/gradle-notes" target="_blank"><i class="nes-icon github is-medium"></i></a></td>
+                        <td style="padding-left: 10px;"><b>Gradle Notes</b></td>
+                    </tr>
+                </table>
+                <br>My cheatsheets/notes I have written to learn Gradle and Maven.<br><br>
+                <div class="skill-box">
+                    <span style="background-color: black; color: white; padding: 4px; margin: 4px">Gradle</span>
+                    <span style="background-color: rgb(246, 200, 13); color: white; padding: 4px; margin: 4px">Maven</span>
+                </div>
+            </div>
+        </div>
+
+    </section> 
+    
+    <div class="mid-section">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+        <img src="sources/subsection/terminal.png" alt="code" class="code">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+        <img src="sources/subsection/terminal.png" alt="code" class="code">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+    </div>
+
+    <section class="nes-container with-title" id="experience">
+        <h2 class="title">Experience</h2>
+        <p style="text-align: center;"><img src="sources/experience/title.png" alt="icon of bag" style="width: 50px; height: 50px;"><br><b>Marketing Price Support Rep.</b></p>
+        <table>
+            <tr>
+                <td><img src="sources/experience/future.png" alt="icon of FE" style="width: 46px; height: 43px; text-align: center;"></td>
+                <td style="padding-left: 10px;"> Future Electronics</td>
+            </tr>
+            <tr>
+                <td><img src="sources/education/place.png" alt="icon of university" style="width: 50px; height: 50px;"></td>
+                <td style="padding-left: 10px;"> Gdansk, Poland</td>
+            </tr>
+            <tr>
+                <td><img src="sources/education/date.png" alt="icon of calendar" style="width: 50px; height: 50px;"></td>
+                <td style="padding-left: 10px;"> 2019 - 2022</td>
+            </tr>
+        </table>
+        <br>
+
+            <ul class="nes-list is-circle">
+                <li> Creation of pricing quotes in our suppliers' online systems.</li>
+            </ul>
+            <br>
+            <ul class="nes-list is-circle">
+                <li> Development of strong relationships with manufacturers of electronic component in order to obtain the best prices.</li>
+            </ul>
+
+
+    </section>  
+
+    <div class="mid-section">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+        <img src="sources/subsection/terminal.png" alt="code" class="code">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+        <img src="sources/subsection/terminal.png" alt="code" class="code">
+        <img src="sources/subsection/heart.png" alt="heart" class="heart">
+    </div>
+
+    <section class="nes-container with-title" id="contact">
+        <h2 class="title">Contact</h2>
+        <div class="contact-me">
+            <div style="display:flex; justify-content: center; align-items: center; flex-wrap: wrap; gap:10px">
+                <img src="sources/contact/mail.png" alt="icon of letter" style="width: 50px; height: 50px;">  <span>yana.melnyk@epitech.eu</span>
+            </div>
+            <div style="display:flex; justify-content: center; align-items: center; flex-wrap: wrap; gap:10px">
+                <img src="sources/contact/phone.png" alt="icon of phone" style="width: 50px; height: 50px;"> <span>+33 7 89 31 35 48</span>
+            </div>
+        </div>
+        <br>
+        <form method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="nes-input" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" class="nes-input" required>
+            <br><br>
+            <label for="message">Message</label>
+            <textarea id="message" class="nes-textarea" required></textarea>
+            <br><br>
+            <div style="text-align: right;">
+                <button type="submit" class="nes-btn is-success">Send</button>
+            </div>
+
+        </form>
+
+    </section>
+    
+    <footer style="text-align: center;">
+        Yana Melnyk <a href="https://github.com/yanamlnk" target="_blank"><i class="nes-icon github is-small"></i></a> <a href="https://www.linkedin.com/in/yana-melnyk/" target="_blank"><i class="nes-icon linkedin is-small"></i></a>
+    </footer>
+</body>
+</html>
